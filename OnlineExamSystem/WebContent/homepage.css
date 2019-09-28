@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image: url("/static/homepage.jpg");
+	background-repeat: no-repeat;
+	height: 200px;
+	background-size: 800px 660px;
+	overflow-x:hidden;
+}
+
+p{
+	font-family:Impact, Charcoal, sans-serif;
+	margin-right: 270px;
+	margin-top: 50px;
+	font-size: 40pt;
+	color: #1876bd;
+}

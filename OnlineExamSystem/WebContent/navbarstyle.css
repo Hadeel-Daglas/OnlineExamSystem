@@ -1,0 +1,123 @@
+/*Navigation Bar (navbar) Style*/
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #337ab7;
+	color: #ffffcc;
+	height: 50px;
+}
+
+.row.content {
+	height: 450px;
+}
+
+a {
+	font-weight: bold;
+	font-size: 16px;
+	color: #ffffcc;
+}
+
+body {
+	background-color: #fff;
+}
+
+.navbar label {
+	margin-top: 10px;
+	padding-left: 280px;
+	font-size: 20px;
+	font-weight: bold;
+}
+/*Side Navigation (sidenav) Style*/
+.sidenav {
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #337ab7;
+	overflow-x: hidden;
+	padding-top: 50px;
+	margin-top: 50px;
+}
+
+.sidenav a {
+	padding: 6px 8px 15px 25px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #ffffcc;
+	display: block;
+}
+
+.sidenav a:hover {
+	background-color: #d9d9d9;
+	color: #224f77;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+
+/*Upload Exam Style */
+.upload {
+	margin-top: 20px;
+	font-size: 16px;
+	margin-left: 190px;
+}
+
+/*Instructor Grades Style*/
+.content {
+	margin-top: 80px;
+	margin-left: 400px;
+}
+
+.content1 label {
+	margin-top: 80px;
+	margin-left: 650px;
+	font-weight: bold;
+	font-size: 36px;
+	color: #337ab7;
+}
+
+.content td {
+	text-align: center;
+}
+
+.content th {
+	text-align: center;
+}
+
+/*Result Page Style*/
+.image {
+	margin-top: 130px;
+	margin-left: 500px;
+}
+
+.box {
+	box-sizing: border-box;
+	margin-top: -220px;
+	margin-left: 750px;
+	border: solid;
+	padding: 20px;
+	width: 400px;
+	align-items: center;
+	border-radius: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*Start Exam Page Style*/
+.list {
+	margin-top: 200px;
+	padding-bottom: 30px;
+	margin-left: 650px;
+	border-style: solid;
+	border-color: #337ab7;
+	border-radius: 20px;
+	padding-top: 25px;
+}
